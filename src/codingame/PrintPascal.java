@@ -2,11 +2,7 @@ package codingame;
 
 public class PrintPascal {
     public static void main(String[] args) {
-
-
         System.out.println(binomialCoeff(6, 3));
-
-
     }
 
     static int binomialCoeff(int n, int k) {
@@ -22,7 +18,6 @@ public class PrintPascal {
         }
         return res;
     }
-
 
     static int facto(int n) {
         int res = 1;
